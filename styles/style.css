@@ -12,7 +12,7 @@
     
     
     /* this ensures that all content is centered on screens wider than 1600px */
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
         
 }
 
@@ -35,7 +35,7 @@
 }
 
 .logo_place_header{   
-    background-image: url("../images/logo_place_header.png");
+   
     width: 151px;
     height: 31px;
     position: absolute;  
@@ -149,7 +149,7 @@
     
 }
 .two-columns__paragraph:last-child{
-    margin-bottom:0px;
+    margin-bottom:0;
 }
 
 .two-columns__span-accent {
@@ -169,8 +169,7 @@
 }
 
 .section-title{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     width: 60%;
 
     font-size: 60px;
@@ -235,15 +234,10 @@
 }
 .feyman__img{
     position: absolute;
-    
     bottom: 0;
     left: 0;
     height: 637px;
     width: 867px;
-    background-image: url("../images/feynman.png");
-    background-size: contain;
-   
-    
 }
 
 .feyman__title{    
@@ -312,7 +306,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     right: -210px;
-    top:0px;
+    top: 0;
    
     
 }
@@ -324,7 +318,7 @@
     width: 60%;
 }
 
-.section__title_theme_dark{
+.section-title_theme_dark{
     color: white; 
     font-size: 60px;
     line-height: 69px; 
@@ -334,7 +328,7 @@
     text-decoration: none;
 }
 
-.section__subtitle_theme_dark{
+.section-subtitle_theme_dark{
     margin-top: 20px;
     color: white; 
     font-size: 24px;
@@ -390,7 +384,7 @@
 }
 
 .logo_place_footer{
-    background-image: url("../images/logo_place_footer.png");
+    
     position: absolute;
     left: 0;
     top: 0;
@@ -402,7 +396,7 @@
 .footer__author{
     position: absolute;
     bottom: 18px;
-    left: 0px;
+    left: 0;
 
     color: white;
     line-height: 25px;
