@@ -232,7 +232,7 @@
    
     
 }
-.feyman__img{
+.feynman__img{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -240,7 +240,7 @@
     width: 867px;
 }
 
-.feyman__title{    
+.feynman__title{    
     
     width: 775px;
     justify-content: center;
@@ -254,7 +254,7 @@
     z-index: 1;
 }
 
-.feyman__subtitle{
+.feynman__subtitle{
     margin-block-start: 0;
     margin-inline-end: 0;
     
@@ -270,7 +270,7 @@
 }
 
 
-.feyman__link{
+.feynman__link{
     position: absolute;
     top:50%;
     font-size: 36px;
