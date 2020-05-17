@@ -314,32 +314,10 @@
     
 }
 
-.section-title{
-    text-align: center;
-    width: 60%;
-    margin-top:90px; 
-    font-size: 60px;
-    line-height: 69px; 
-    font-weight: bold;
-    
-}
-
-.section-subtitle{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    width: 60%;
-
-    font-size: 24px;
-    line-height: 34px; 
-    font-weight: normal;
-}
-
-
-
 .section-title_theme_dark{
     color: white; 
     font-size: 60px;
+    margin-top:90px; 
     line-height: 69px; 
     font-weight: bold;
     text-align: center;
