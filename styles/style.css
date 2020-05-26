@@ -1,5 +1,15 @@
-
-
+@keyframes rotate {
+    from {
+      transform: rotate(-15deg);
+    }
+    to {
+      transform: rotate(345deg);
+    }
+  }
+  
+  .rotation {
+    animation: rotate 20s linear infinite;
+  }
 
 
 .page {
@@ -26,7 +36,8 @@
     background-color: #f2f2f2;
     z-index: 0;
   
-    /* parameters for the header section */
+   
+    overflow:hidden;
 }
 .logo{    
     
@@ -98,11 +109,18 @@
     height: 568px;
     width: 568px;
     background-color: #2F80ED;
-    z-index: 0;  
-   
+    z-index: 0; 
     right: 0;
     top:64px;
+
+    
+    transform: rotate(-15deg); 
+   
 }
+
+
+
+
 .content{
     margin-top:100px;
 }
@@ -156,10 +174,89 @@
     font-weight: bold;
   }
 
+.techniques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; /*bug here*/
+    
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 920px;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+    
+    
+}
+
+.cards__item{
+    margin-right: 100px;
+    width: 240px;
+    
+}
+
+.cards__item:nth-child(3) {
+    margin-right: 0;
+  }
+
+.cards__image{
+    width: 160px;
+    height: 160px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 43px;
+    border-radius: 50%;
+}
+
+.cards__title{
+    margin-bottom: 16px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards__description{
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.video__iframes{
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -70px;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+.video__iframe{
+    width: 515px;
+    height: 316px;
+    border: none;
+}
+
 
 
 .digits{
-    margin:100px auto;
+    margin:100px auto 0;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
@@ -189,6 +286,12 @@
     font-weight: normal;
 }
 
+.oakley{
+    padding-top: 160px;
+    display: flex;   
+    justify-content: center; 
+    background-color: #f2f2f2;
+}
 
 .table{
     display: flex;
@@ -220,6 +323,80 @@
     font-size: 18px;
     line-height: 1.2; 
     font-weight: normal;
+}
+
+
+.knan{
+    display: flex;
+    justify-content: center;
+    background-color:  #f2f2f2;
+    padding-top: 105px;
+}
+
+
+.knan__container{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 80%;
+}
+.knan__autor{
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+
+
+.knan__title{
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+}
+.knan__quote{
+    margin-top: 50px;
+    width: 790px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.knan__quote-author{
+    margin-top: 36px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+
+
+.knan__quote-author-subline{
+    margin-top: 10px;
+
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.knan__book-container{
+    margin-top: 68px;
+    display: flex;
+    flex-direction: row;
+}
+
+.knan__book-pix{
+    width:620px;
+    height: 608px;
+}
+
+.knan__buy-link{
+    margin-left: 48px;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color:  #2F80ED;;
 }
 
 
@@ -351,6 +528,29 @@
     margin-right: 0;
     margin-top: 80px;
 }
+
+.resources{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+   
+    
+}
+
+.resources__logo-zone{
+    width: 1100px;
+    margin:80px auto 217px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.resources__logo{
+    width: 270px;
+    height: 38px;
+}
+
 
 
 .footer{
