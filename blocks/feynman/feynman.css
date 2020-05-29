@@ -6,7 +6,7 @@
 
 
 .feynman {
-    height: 790px;
+    min-height: 790px;
     position: relative;
 	
     background-color: #f2f2f2;
